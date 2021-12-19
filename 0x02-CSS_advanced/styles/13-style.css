@@ -10,6 +10,10 @@ body {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
 a {
     color: #161616;
     color: var(--text-color);
@@ -43,7 +47,7 @@ a {
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: color-black;
+    --text-color: var(--color-black);
     --font-family-base: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     --font-family-title: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
@@ -59,7 +63,7 @@ a {
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
-    --section-title-color: color-black;
+    --section-title-color: var(--color-black);
 }
 .section-tagline {
     color: var(--color-primary);
@@ -67,10 +71,10 @@ a {
 .card-category{
     color: var(--color-primary);
 }
-h1 h2 h3 h4 h5 h6 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
+a:link #haf {
+    color: #161616;
 }
+    
 a:visited {
     font-style: italic;
 }
@@ -78,5 +82,5 @@ a:hover {
     text-decoration: underline;
 }
 a:active{
-    background-color: var(--color-dark-grey)
+    background-color: var(--color-light-grey)
 }
