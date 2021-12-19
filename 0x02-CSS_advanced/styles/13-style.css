@@ -71,10 +71,9 @@ a {
 .card-category{
     color: var(--color-primary);
 }
-a:link #haf {
+a:link {
     color: #161616;
 }
-    
 a:visited {
     font-style: italic;
 }
