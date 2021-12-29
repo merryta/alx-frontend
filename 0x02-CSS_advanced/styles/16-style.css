@@ -50,8 +50,8 @@ a {
 }
 .container {
     width: 960px;
-    margin-left: 480px;
-    margin-right: 480px;
+    margin-left: 50%;
+    margin-right: 50%;
 }
 :root{
     --color-primary: #d73953;
