@@ -98,7 +98,7 @@ a {
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0px 0px 3rem 0px;
+    --nav-item-margin: 0px 0px 3em 0px;
     --nav-item-link-hover: var(--color-primary);
 }
 .section-tagline {
@@ -142,7 +142,7 @@ a:active{
 }
  .nav .nav-link {
     display: block;
-    padding: 0.5rem 0 0.5rem 0;
+    padding: 0.5em 0 0.5em 0;
 }
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
